@@ -21,7 +21,9 @@ export default defineConfig({
       }
     }
   },
-  plugins: [viteSingleFile(), viteCompression(), viteClean()]
+  plugins: [viteSingleFile(), viteCompression({
+    deleteOriginFile: true
+  }), viteClean()]
 })
 
 // clean up unused assets
