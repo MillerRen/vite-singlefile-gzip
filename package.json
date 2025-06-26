@@ -7,8 +7,8 @@
     "serve": "vite preview"
   },
   "devDependencies": {
-    "vite": "^2.6.4",
-    "vite-plugin-compression": "^0.3.5",
-    "vite-plugin-singlefile": "^0.5.1"
+    "vite": "^6.0.4",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-singlefile": "^2.2.0"
   }
 }
